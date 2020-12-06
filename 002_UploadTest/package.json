@@ -17,7 +17,7 @@
     "url": "https://github.com/CAH9487/Nodejs_Practice/issues"
   },
   "homepage": "https://github.com/CAH9487/Nodejs_Practice#readme",
-  "dependencies": [
-    "formidable": "1.2.2"
-  ]
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
 }
