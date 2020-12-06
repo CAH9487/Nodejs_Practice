@@ -1,0 +1,23 @@
+{
+  "name": "002_uploadtest",
+  "version": "1.0.0",
+  "description": "nodejs upload test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAH9487/Nodejs_Practice.git"
+  },
+  "author": "cah9487",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAH9487/Nodejs_Practice/issues"
+  },
+  "homepage": "https://github.com/CAH9487/Nodejs_Practice#readme",
+  "dependencies": [
+    "formidable": "1.2.2"
+  ]
+}

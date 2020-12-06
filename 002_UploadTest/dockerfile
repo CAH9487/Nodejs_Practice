@@ -1,0 +1,16 @@
+FROM node:latest
+
+RUN mkdir -p /app
+WORKDIR /app
+
+COPY package.json .
+RUN npm install
+
+COPY index.js .
+COPY server.js .
+COPY router.js .
+COPY requestHandlers.js .
+
+EXPOSE 8080
+
+CMD [ "node", "index.js" ]
